@@ -9,6 +9,15 @@
       "web": ""
     }
   ],
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brentertz/scapegoat.git"
+  },
+  
   "dependencies": {
     "": ""
   }
