@@ -11,13 +11,14 @@
   ],
   "main": "index.js",
   "scripts": {
-    "unit-test": "NODE_ENV=test mocha '/**/*.spec.js'",
+    "unit-test": "NODE_ENV=test mocha '/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:KooT/node-lock-schedule.git"
   },
   "dependencies": {
+    "chai": "^4.1.1",
     "mocha": "^3.5.0",
     "node-schedule": "^1.2.4",
     "redlock": "^3.0.0"
