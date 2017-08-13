@@ -11,7 +11,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "unit-test": "NODE_ENV=test mocha '/**/*.spec.js'"
+    "test": "./node_modules/.bin/mocha tests"
   },
   "repository": {
     "type": "git",
