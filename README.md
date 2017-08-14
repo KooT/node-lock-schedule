@@ -19,5 +19,5 @@ const funToRun = () => {
    console.log("The Answer is 42");
 };
 
-s.schedule("/1 * * * *" funToRun);
+s.schedule("/1 * * * *", funToRun);
 ```
