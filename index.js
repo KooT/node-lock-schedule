@@ -1,3 +1,3 @@
 module.exports = {
-    schedlock: require("./lib/schedlock.js")
+    SchedLock: require("./lib/schedlock.js")
 }

@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const schedlock = require('../lib/schedlock.js').schedlock;
+const schedlock = require('../lib/schedlock.js');
 const assert = require('assert');
 
 const SchLock = new schedlock();
